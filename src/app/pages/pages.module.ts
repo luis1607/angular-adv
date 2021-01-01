@@ -6,6 +6,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PagesComponent } from './pages.component';
 import { SharedModule } from '../shared/shared.module';
 import { Router, RouterModule } from '@angular/router';
+import { FormsModule } from '@angular/forms'
+
+import { ChartsModule } from 'ng2-charts';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -24,7 +28,10 @@ import { Router, RouterModule } from '@angular/router';
   [ 
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    ComponentsModule,
+    ChartsModule
   
   ]
 })
