@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms'
 
 import { ChartsModule } from 'ng2-charts';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSetingsComponent } from './account-setings/account-setings.component';
 
 
 
@@ -18,12 +19,16 @@ import { ComponentsModule } from '../components/components.module';
     ProgressComponent,
     Grafica1Component,
     DashboardComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSetingsComponent
   ],
   exports:[ProgressComponent,
     Grafica1Component,
     DashboardComponent,
-    PagesComponent],
+    PagesComponent,
+    AccountSetingsComponent
+  ],
+
   imports: 
   [ 
     CommonModule,
